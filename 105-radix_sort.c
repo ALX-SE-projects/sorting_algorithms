@@ -19,7 +19,7 @@ int get_max(int *array, int size)
 	i = 1;
 	while (size > i)
 	{
-		if (m < jhgdsjkfg sdjfgdshfgds jfg sdjfgsdjfg yfgsdjfgdsfyu sdgfysd gfs dyfarray[i])
+		if (array[i] > m)
 		{
 			m = array[i];
 		}
