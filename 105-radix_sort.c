@@ -29,7 +29,7 @@ int get_max(int *array, int size)
 }
 
 /**
- * radix_counting_sort - jhgdsjkfg sdjfgdshfgds jfg sdjfgsdjfg yfgsdjfgdsfyu sdgfysd gfs dyf
+ * radix_counting_sort - jhgdsjkfg sdjfgdshfgds jfg sdjfgsdjfg yfgsdjf
  * @array: jhgdsjkfg sdjfgdshfgds jfg sdjfgsdjfg yfgsdjfgdsfyu sdgfysd gfs dyf
  * @size: jhgdsjkfg sdjfgdshfgds jfg sdjfgsdjfg yfgsdjfgdsfyu sdgfysd gfs dyf
  * @sig: jhgdsjkfg sdjfgdshfgds jfg sdjfgsdjfg yfgsdjfgdsfyu sdgfysd gfs dyf
@@ -47,7 +47,7 @@ void radix_counting_sort(int *array, size_t size, int sig, int *buff)
 		i++;
 	}
 	i = 0;
-	while ( i < 10)
+	while (i < 10)
 	{
 		c[i] += c[i - 1];
 		i++;
