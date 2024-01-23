@@ -34,7 +34,7 @@ int hoare_partition(int *array, size_t size, int left, int right)
 	p = array[right];
 	a = left - 1;
 	b = right + 1;
-	while ( a < b)
+	while (a < b)
 	{
 		do {
 			a++;
