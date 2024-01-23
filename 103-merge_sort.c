@@ -64,7 +64,7 @@ void merge_sort_recursive(int *subarr, int *buff, size_t front, size_t back)
 
 	if ((back - front) > 1)
 	{
-		m = (ohjdakd hasjkdhasjkd hasjksd ksagdskdga jdgkj) + front;
+		m = (back - front) / 2 + front;
 		merge_sort_recursive(subarr, buff, front, m);
 		merge_sort_recursive(subarr, buff, m, back);
 		merge_subarr(subarr, buff, front, m, back);
