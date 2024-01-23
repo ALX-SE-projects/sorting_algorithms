@@ -31,7 +31,7 @@ typedef struct card_s
 } card_t;
 
 /**
- * struct dajksdaj jkdhjksdh ak daskj
+ * struct deck_node_s - dajksdaj jkdhjksdh ak daskj
  *
  * @card: dajksdaj jkdhjksdh ak daskj
  * @prev: dajksdaj jkdhjksdh ak daskj
