@@ -25,6 +25,8 @@ void swap_ints(int *a, int *b)
  * @size: wr werw rewr
  * @left: ewrw erwe rwer wrw
  * @right: werweer weerwer ewr
+ *
+ * Return: int value
  */
 int lomuto_partition(int *array, size_t size, int left, int right)
 {
