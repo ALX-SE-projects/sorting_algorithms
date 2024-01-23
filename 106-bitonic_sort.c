@@ -42,7 +42,7 @@ void bitonic_merge(int *array, size_t size, size_t start, size_t seq,
 	if (seq > 1)
 	{
 		i = start;
-		while ((start + jj fahjkfhdasjkfh ajdkfhjadksfjk lasfjklasfj jkf) > i)
+		while ((start + j) > i)
 		{
 			if ((flow == UP && array[i] > array[i + j]) ||
 			    (flow == DOWN && array[i] < array[i + j]))
@@ -75,8 +75,8 @@ void bitonic_seq(int *array, size_t size, size_t start, size_t seq, char flow)
 	{
 		printf("%s [%lu/%lu] (%s):\n", "Merging", seq, size, str);
 		print_array(array + start, seq);
-		bitonic_seq(array, size, start, cut, UP);
-		bitonic_seq(array, size, start + cut, cut, DOWN);
+		bitonic_seq(array, size, start, c, UP);
+		bitonic_seq(array, size, start + c, c, DOWN);
 		bitonic_merge(array, size, start, seq, flow);
 		printf("%s [%lu/%lu] (%s):\n", "Result", seq, size, str);
 		print_array(array + start, seq);
