@@ -94,3 +94,4 @@ void radix_sort(int *array, size_t size)
 		s *= 10;
 	}
 	free(b);
+}
