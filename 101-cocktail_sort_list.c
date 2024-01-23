@@ -49,7 +49,7 @@ void swap_node_behind(listint_t **list, listint_t **tail, listint_t **shaker)
 {
 	listint_t *t;
 
-	t= (*shaker)->prev;
+	t = (*shaker)->prev;
 	if ((*shaker)->next != NULL)
 	{
 		(*shaker)->next->prev = t;
